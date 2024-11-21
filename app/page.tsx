@@ -1,5 +1,4 @@
-import { Header, Hero, Features, Footer } from "./components/index";
-import Pr from "./components/Pr";
+import { Header, Hero, Features, Pricing, Footer } from "./components/index";
 export default function Home() {
   return (
     <div>
@@ -9,8 +8,7 @@ export default function Home() {
       {/* Features Section */}
       <Features />
 
-      {/* <Pricing /> */}
-      <Pr />
+      <Pricing />
 
       {/* Footer */}
       <Footer />
